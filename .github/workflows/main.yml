@@ -25,3 +25,4 @@ jobs:
         script: |
           cd /var/www/sae301-dist
           git pull origin main
+          git status
