@@ -7,11 +7,10 @@ body {
 .nav_bg,
 .footer_bg {
   background-color: #1d1e56;
-  width: 100vw;
+  width: 100%;
   margin: 0;
-  position: fixed;
+  position: relative;
   left: 0;
-  z-index: 1000;
 }
 
 .nav_bg {
@@ -89,4 +88,8 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+.white-icon {
+  color: white;
 }
